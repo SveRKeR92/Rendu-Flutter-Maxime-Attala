@@ -14,9 +14,17 @@ class UserDetailsForm extends StatelessWidget {
   Widget build(BuildContext context) {
     void saveUser() {
       print("Saved");
+      //code to save the user
+      /*
+      * UserRepository().insertData(username, userId)
+      * */
     }
 
     void updateUser() {
+      //code to update the user
+      /*
+      * UserRepository().updateData(username, userId)
+      * */
       print("updated");
     }
 
